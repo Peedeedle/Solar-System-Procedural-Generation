@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22ec7a6bda778974dbcbbd80c1e3dfbd, type: 3}
+  m_Name: VenusShape
+  m_EditorClassIdentifier: 
+  planetRadius: 0.75
+  noiseLayersVenus:
+  - enabled: 1
+    useFirstLayerAsMask: 0
+    noiseSettingsVenus:
+      filterTypeVenus: 0
+      simpleNoiseSettingsVenus:
+        numLayers: 6
+        strength: 0.01
+        baseRoughness: 2
+        persistence: 0.4
+        roughness: 2
+        centre: {x: 0, y: 0, z: 0}
+        minValue: 0.2
+      rigidNoiseSettingsVenus:
+        numLayers: 0
+        strength: 0
+        baseRoughness: 0
+        persistence: 0
+        roughness: 0
+        centre: {x: 0, y: 0, z: 0}
+        minValue: 0
+        weightMultiplier: 0
+  - enabled: 1
+    useFirstLayerAsMask: 1
+    noiseSettingsVenus:
+      filterTypeVenus: 1
+      simpleNoiseSettingsVenus:
+        numLayers: 6
+        strength: 0.2
+        baseRoughness: 0.2
+        persistence: 0.2
+        roughness: 0.2
+        centre: {x: 0, y: 0, z: 0}
+        minValue: 0.2
+      rigidNoiseSettingsVenus:
+        numLayers: 0
+        strength: 0
+        baseRoughness: 0
+        persistence: 0
+        roughness: 0
+        centre: {x: 0, y: 0, z: 0}
+        minValue: 0
+        weightMultiplier: 0

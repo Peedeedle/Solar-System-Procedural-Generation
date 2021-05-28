@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7764e2d552c1e55499fe3e770b293f69, type: 3}
+  m_Name: VenusColour
+  m_EditorClassIdentifier: 
+  biomeColourSettingsVenus:
+    biomesVenus:
+    - Venusgradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 0.9686275, b: 0.72156864, a: 1}
+        key1: {r: 1, g: 0.9526973, b: 0.5801887, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65342
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      Venustint: {r: 0, g: 0, b: 0, a: 0}
+      VenusstartHeight: 0
+      VenustintPercent: 0
+    noiseVenus:
+      filterTypeVenus: 0
+      simpleNoiseSettingsVenus:
+        numLayers: 1
+        strength: 1
+        baseRoughness: 1
+        persistence: 0.5
+        roughness: 2
+        centre: {x: 0, y: 0, z: 0}
+        minValue: 0
+      rigidNoiseSettingsVenus:
+        numLayers: 1
+        strength: 1
+        baseRoughness: 1
+        persistence: 0.5
+        roughness: 2
+        centre: {x: 0, y: 0, z: 0}
+        minValue: 0
+        weightMultiplier: 0.8
+    VenusnoiseOffset: 0
+    VenusnoiseStrength: 0
+    VenusblendAmount: 0
+  VenusMaterial: {fileID: 2100000, guid: d46aba6b7ffefff47a4d730daa12af88, type: 2}
+  oceanColourVenus:
+    serializedVersion: 2
+    key0: {r: 1, g: 0.9675689, b: 0.7216981, a: 1}
+    key1: {r: 1, g: 0.9686275, b: 0.72156864, a: 1}
+    key2: {r: 0, g: 0, b: 0, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2

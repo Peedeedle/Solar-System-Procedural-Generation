@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e3b562afd02ed646844673fca205012, type: 3}
+  m_Name: UranusColour
+  m_EditorClassIdentifier: 
+  biomeColourSettingsUranus:
+    biomesUranus:
+    - Uranusgradient:
+        serializedVersion: 2
+        key0: {r: 0.3921569, g: 0.53333336, b: 0.54509807, a: 1}
+        key1: {r: 0.47009614, g: 0.69798994, b: 0.7169812, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      Uranustint: {r: 0, g: 0, b: 0, a: 0}
+      UranusstartHeight: 0
+      UranustintPercent: 0
+    - Uranusgradient:
+        serializedVersion: 2
+        key0: {r: 0.39607847, g: 0.5411765, b: 0.5529412, a: 1}
+        key1: {r: 0.4666667, g: 0.6901961, b: 0.70980394, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      Uranustint: {r: 0, g: 0, b: 0, a: 0}
+      UranusstartHeight: 0.5
+      UranustintPercent: 0
+    noiseUranus:
+      filterTypeUranus: 0
+      simpleNoiseSettingsUranus:
+        numLayers: 3
+        strength: 1
+        baseRoughness: 1
+        persistence: 1
+        roughness: 2
+        centre: {x: 0, y: 0, z: 0}
+        minValue: 0.5
+      rigidNoiseSettingsUranus:
+        numLayers: 1
+        strength: 1
+        baseRoughness: 1
+        persistence: 0.5
+        roughness: 2
+        centre: {x: 0, y: 0, z: 0}
+        minValue: 0
+        weightMultiplier: 0.8
+    UranusnoiseOffset: 1.7
+    UranusnoiseStrength: 0.1
+    UranusblendAmount: 0.1
+  UranusMaterial: {fileID: 2100000, guid: af1a462424b26f1458da6aaa980eb42a, type: 2}
+  oceanColourUranus:
+    serializedVersion: 2
+    key0: {r: 0.45616764, g: 0.6284107, b: 0.6320754, a: 1}
+    key1: {r: 0.454902, g: 0.627451, b: 0.6313726, a: 1}
+    key2: {r: 0, g: 0, b: 0, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 0
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2

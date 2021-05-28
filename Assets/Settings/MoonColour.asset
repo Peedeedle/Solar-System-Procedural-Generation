@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f4605fb7e213e64da3b2fa499418b8d, type: 3}
+  m_Name: MoonColour
+  m_EditorClassIdentifier: 
+  biomeColourSettingsMoon:
+    biomesMoon:
+    - Moongradient:
+        serializedVersion: 2
+        key0: {r: 0.6320754, g: 0.6320754, b: 0.6320754, a: 1}
+        key1: {r: 0.6313726, g: 0.6313726, b: 0.6313726, a: 1}
+        key2: {r: 1, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 49151
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      Moontint: {r: 0, g: 0, b: 0, a: 0}
+      MoonstartHeight: 0
+      MoontintPercent: 0
+    - Moongradient:
+        serializedVersion: 2
+        key0: {r: 0.754717, g: 0.754717, b: 0.754717, a: 1}
+        key1: {r: 0.8588236, g: 0.8588236, b: 0.8588236, a: 1}
+        key2: {r: 1, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 49151
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      Moontint: {r: 0, g: 0, b: 0, a: 0}
+      MoonstartHeight: 0.5
+      MoontintPercent: 0
+    noiseMoon:
+      filterTypeMoon: 0
+      simpleNoiseSettingsMoon:
+        numLayers: 3
+        strength: 1
+        baseRoughness: 1
+        persistence: 1
+        roughness: 2
+        centre: {x: 0, y: 0, z: 0}
+        minValue: 0.5
+      rigidNoiseSettingsMoon:
+        numLayers: 1
+        strength: 1
+        baseRoughness: 1
+        persistence: 0.5
+        roughness: 2
+        centre: {x: 0, y: 0, z: 0}
+        minValue: 0
+        weightMultiplier: 0.8
+    MoonnoiseOffset: 1.7
+    MoonnoiseStrength: 0.1
+    MoonblendAmount: 0.1
+  MoonMaterial: {fileID: 2100000, guid: 4e0afc0a5ac09364cbbcc0ad3d9c94ed, type: 2}
+  oceanColourMoon:
+    serializedVersion: 2
+    key0: {r: 0.8773585, g: 0.8773585, b: 0.8773585, a: 1}
+    key1: {r: 0.5943396, g: 0.5943396, b: 0.5943396, a: 1}
+    key2: {r: 1, g: 0, b: 0, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 65535
+    ctime2: 49151
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 2
+    m_NumAlphaKeys: 2
